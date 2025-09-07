@@ -21,3 +21,58 @@ It demonstrates how to train, fine-tune, and evaluate models like **HuBERT** on 
 ---
 
 ## 📂 Project Structure
+Huggingface_projects/     #you can name your project 
+│── main.py # Training & evaluation script
+│── requirements.txt # Dependencies
+│── myenv310/ # Virtual environment (not uploaded to repo)
+│── data/ # Local audio dataset 
+
+
+---
+
+## ⚡ Installation
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/your-username/audio-recognizer.git
+cd audio-recognizer
+
+
+### 2. Create a virtual environment
+python -m venv myenv310
+# Activate (Windows)
+myenv310\Scripts\activate
+# Activate (Linux/macOS)
+source myenv310/bin/activate
+
+### 3. Install dependencies
+pip install -r requirements.txt
+
+### ▶️ Usage
+Run Training/Evaluation
+python main.py
+
+Your dataset should be placed under the data/ folder. Update the paths inside main.py if needed.
+
+
+### 🛠️ Tech Stack
+
+Python 3.10
+
+PyTorch + Torchaudio
+
+Hugging Face Transformers
+
+Hugging Face Datasets
+
+### 📜 License
+
+This project is released under the MIT License.
+
+### 🙌 Acknowledgements
+
+Hugging Face Transformers
+
+HuBERT Model
+
+PyTorch
